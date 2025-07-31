@@ -1,0 +1,52 @@
+/* GAMES */
+.textyellow{
+    padding-right: 2rem;
+    margin: 0;
+    padding-top: 2rem;
+    color: #FDBE55;
+}
+.watchbutton-game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 254px;
+    height: 65px;
+    background: #FDBE55;
+    border-radius: 100px;
+    font-family: Poppins;
+    font-size: 30px;
+    margin-top: 1rem;
+}
+.halfbuttondesign-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A4711C;
+    height: 65px;
+    width: 60px;
+    border-radius: 0px 100px 100px 0px;
+}
+.watchbutton2-game{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 131px;
+    height: 36px;
+    background: #FDBE55;
+    border-radius: 100px;
+    font-family: Poppins;
+    font-size: 16px;
+}
+.halfbuttondesign2-game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A4711C;
+    height: 36px;
+    width: 29px;
+    border-radius: 0px 100px 100px 0px;
+}
+@media screen and (max-width: 414px) 
+{
+    
+}

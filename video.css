@@ -1,0 +1,282 @@
+/* VIDEO */
+.navigation-arrow{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    padding-top: 9rem;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+}
+.video-wrapper{
+background: #C2DFEE;
+width: 1140px;
+border-radius: 40px;
+height: 956px;
+}
+.upperdiv{
+    display: flex;
+    justify-content: space-between;
+    background: #E0F4F2;
+    border-radius: 40px;
+    margin-top: 2rem;
+    width: 1099px;
+    height: 371px;
+   margin-left: 1.5rem;
+}
+.preview{
+  background: #A8C6D5;
+  border-radius: 40px 0px 0px 40px;
+  width:427px;
+}
+.investigator{
+    margin-top: 4rem;
+}
+.previews-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+    font-family: Poppins;
+    margin-right: 6rem;
+}
+.Sponsored,.Sponsored2{
+    font-size: 50px;  
+    margin: 0;
+    font-weight: 700;
+}
+.Sponsored2{
+    display: none;
+}
+.Follow{
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+.watchbutton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 254px;
+    height: 65px;
+    background: #F48F4A;
+    border-radius: 100px;
+    font-family: Poppins;
+    font-size: 30px;
+    margin-top: 1rem;
+}
+.halfbuttondesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #AF5A1F;
+    height: 65px;
+    width: 60px;
+    border-radius: 0px 100px 100px 0px;
+}
+.video-logo{
+margin-left: 1rem;
+}
+.middlediv{
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 32px;
+    color: #212121;
+    font-weight: 600;
+    padding-left: 1.9rem;
+}
+.featured{
+    margin: 0;
+}
+.lowerdiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 32px;
+    color: #212121;
+    font-weight: 600;
+}
+.video1{
+    display: flex;
+    flex-direction: column;    
+    background: #E0F4F2;
+    height: 274px;
+    width: 259px;
+}
+.watchbutton2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 131px;
+    height: 36px;
+    background: #F48F4A;
+    border-radius: 100px;
+    font-family: Poppins;
+    font-size: 16px;
+}
+.halfbuttondesign2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #AF5A1F;
+    height: 36px;
+    width: 29px;
+    border-radius: 0px 100px 100px 0px;
+}
+.video-logo{
+margin-left: 1rem;
+}
+.button1{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+.kidz{
+    margin: 0;
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 414px)
+{
+    .watchbutton2{
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .Follow{
+        font-size: 15px;
+    }
+    .Sponsored{
+        display: none;
+    }
+    .Sponsored2{
+        display: block;
+        font-size: 25px;
+    }
+    .navigation-arrow{
+        flex-direction: column;
+        padding: 0rem 0rem;
+        padding-top: 5rem;
+        display: none;
+    }
+    .nav-content{
+        flex-direction: column; 
+        padding-top: 4rem;   
+    }
+   .arw{
+    display: none;
+   }
+.wrapper{
+    margin-top: 0rem;
+    width: auto;
+    height: auto;
+    }
+    .video-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: auto;
+        height: auto;
+       
+}
+.upperdiv{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 450px;
+    margin-top: 0rem;
+    margin-left: 0rem;  
+}
+.investigator{
+    margin-top: .5rem;
+    border-radius: 40px;
+    margin-left: .5rem;
+    width: 410px;
+}
+.preview{
+    width:427px;
+    border-radius: 40px;
+}
+.previews-description{
+    margin-right: 0rem;
+}
+.watchbutton{
+    width: 254px;
+    height: 50px;
+}
+.halfbuttondesign{
+    width: 60px;
+    height: 50px;
+    
+}
+.lowerdiv{
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    gap: 1rem;
+    font-size: 20px;
+}
+.video-img{
+    width: 300px;
+}
+.video1{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    gap: 1rem;
+}
+.button1{
+   flex-direction: column;
+   margin-top: 5rem;
+   margin-right: 0rem;
+}
+.kidz{
+    margin-left: 0rem;
+}
+.formediaquery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0rem;   
+}
+.halfbuttondesign2{
+    width: 29px;
+    height: 30px;    
+}
+.watchbutton2{
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+}
+.video-logo{
+    width: auto;
+    height: auto;
+}
+}
+
+@media screen and (max-width: 1024px)
+{
+     .lowerdiv{
+        flex-wrap: wrap;
+    }
+   
+}
+

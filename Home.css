@@ -1,0 +1,238 @@
+/* HOME */
+body{
+    background-image: linear-gradient( #E0F4F2,#A8DCD6);
+    min-height: 100vh; 
+    margin: 0;
+    font-family: Poppins;
+    color: #EFF3FF;
+}
+.header-blue{
+    height: 6rem;
+    background: #004D6B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+.BrightEDStartcontainer{
+    padding-left: 2rem;
+    font-size: 3rem;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px; 
+}
+.text{
+    padding-right: 2rem;
+    margin: 0;
+    padding-top: 2rem;
+}
+.textorange{
+    padding-right: 2rem;
+    margin: 0;
+    padding-top: 2rem;
+    color: #F48F4A;
+}
+.image{
+    padding-left: 1.8rem;
+    position: absolute;
+}
+.cutics{
+    width: 800px;
+}
+.link-index{
+    text-decoration: none;
+    color: #EFF3FF;
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 9rem;
+}
+.cutepicture{
+    margin: 0;
+    
+}
+.cutepicture2{
+    margin: 0;
+    display: none;   
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 10rem;
+}
+.intro,
+.learnings{
+    font-family: Atkinson Hyperlegible;
+}
+.WELCOME{
+    font-size: 50px;
+    color: #00574F;
+    margin: 0;
+    margin-right: 3rem;
+}
+.learning{
+    font-size: 39px;
+    color: #0D433E;
+    margin: 0;
+    margin-top: .5rem;
+    
+}
+.buttonwrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    height: 9rem;
+    background: #004D6B;
+    color: #EFF3FF;
+    font-size: 4rem;
+    border-radius: 108px;
+    border-style: none;
+    margin-top: 2rem;
+    box-shadow: 10px 10px 20px #004058 inset;
+    gap: 1rem;
+}
+.arrow {
+   margin-top: 1rem;
+   width: 60px;
+}
+.hamburger-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 24px;
+    cursor: pointer;
+    background: #004D6B;
+    margin-right: 5rem;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    display: none;    
+}
+.hamburger-menu:hover{
+    background: #EFF3FF;
+    color:#004D6B ; 
+}
+.arrow{
+    width: 50px;
+}
+
+/* Responsive Media Query */
+
+/* Phones */
+@media screen and (max-width: 414px) 
+{
+.BrightEDStartcontainer p{
+        font-size: 1.8rem;
+}
+ .header-blue{
+        height: 4rem;
+        }
+    .buttonwrap{
+        width: 20rem;
+        height: 5rem;
+        background: #004D6B;
+        color: #EFF3FF;
+    }
+.button{
+    font-size: 2rem;  
+}
+.introduction{
+   margin-left: 10rem;
+   width: 100%;
+}
+
+    .header-menu {
+      display: none;
+    }
+    .hamburger-menu{
+      display: flex;
+      font-size: 20px;
+      width: 70px;
+      height: 40px;
+      margin-right: 1rem;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0rem;
+    }
+    .cutepicture{
+        display: none;
+    }
+    .cutepicture2{
+        display: flex; 
+    }
+    .cutics{
+        width: auto;
+    }
+    .learning b{
+       font-size: 15px;
+       margin: 0;
+    }
+    .WELCOME b{
+        font-size: 25px;
+        margin: 0;  
+    }
+}
+/* Tablets */
+@media screen and (max-width: 950px) 
+{
+.BrightEDStartcontainer{
+        font-size: 2rem;
+        padding-left: 1rem;
+        margin-right: 0px;
+    }
+    .header-menu{
+        font-size: 15px;
+    }
+    .image{
+      width: 30px;
+      height: 30px;
+      padding-left: 1rem;
+    }
+    .cutics{
+        width: 700px;
+    }
+    .WELCOME{
+        font-size: 40px;
+        margin: 0;
+    }
+    .learning{
+        font-size: 20px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1478px) 
+{
+    .cutics{
+        width: 600px;
+    }
+    .WELCOME{
+        font-size: 35px;
+        margin: 0;
+    }
+    .learning{
+        font-size: 18px;
+        margin: 0;
+    }
+}
+    
+
+
+
+
+
