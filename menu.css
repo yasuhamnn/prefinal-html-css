@@ -49,50 +49,64 @@ padding-left: 2rem;
 
 @media screen and (max-width: 414px) 
 {
+    .header-blue{
+        height: 4rem;
+    }
+    
 .menu-continer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin-left: 10rem;
     padding-top: 4rem;
 }
 .Select {
-    font-size: 26px;
+    font-size: 20px;
     margin: 0;
 }
 .picture-selection{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 0rem 0rem;
+    padding-left: 9rem;
 }
 
 .image-selection{
-    width: 150px;
-    height: 140px;
+    width: auto;
+    height: auto;
 }
 .grade{
-    margin-top: 0rem;
-    font-size: 20px;
+    margin-top: 1rem;
+    font-size: 25px;
 }
-.firstpic, .secondpic{
-    width: 5rem;
-    height: auto;
+.firstpic{
+    margin-left: 8rem;
     gap: 0rem;
 }
 }
 
 
-@media screen and (max-width: 950px), screen and (max-width: 5px)
+@media screen and (max-width: 950px)
 {
     .picture-selection{
-        justify-content: center;
-        padding: 0rem 10;       
+
+    justify-content: center;
+    padding: 0rem 10;       
 }
 .firstpic, .secondpic{
     width: 20rem;
     height: auto;
+}
+.BrightEDStartcontainer{
+    font-size: 2rem;
+    padding-left: 1rem;
+    margin-right: 0px;
+}
+.header-menu{
+    font-size: 15px;
 }
 }
